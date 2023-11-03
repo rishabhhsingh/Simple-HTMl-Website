@@ -1,1 +1,79 @@
 # Simple-HTMl-Website
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>About Us</h2>
+        <p>This is a simple and good-looking website created with HTML.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Simple Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
